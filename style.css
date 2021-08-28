@@ -1,0 +1,73 @@
+
+      .navbar
+      {
+        background: none;
+        border: none;
+        background:#262626;
+        padding: 20px;
+      }
+      body
+      {
+        margin: 0;
+        background: black;
+        padding: 0;
+      }
+      .navbar .navbar-brand
+      {
+        font-size: 25px;
+        color:#fff;
+        font-family:bree serif; 
+        letter-spacing: 2px;
+      }
+       .navbar-nav .nav-item:hover
+       {
+       	background: rgba(255,255,255,0.5);
+       }
+       .active
+       {
+       	background: rgba(255,255,255,0.5);
+       }
+       .navbar-nav .nav-item
+      {
+        font-family: sans-serif;
+        padding: 0px 5px; 
+      }
+      .nav-link
+      {
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        padding: 1px 5px;
+        border-top-right-radius: 10px ;
+        border-bottom-left-radius: 10px ;
+        transition: .4s;
+        border-bottom: 2px solid transparent;
+      }
+      .nav-link:hover
+      {
+        font-size: 18px;
+        border-bottom:  2px solid red;
+        text-shadow: 0 0 1px #000;
+        transform: translateY(-4px);
+      }
+      .navbar-toggle .icon-bar
+      {
+      	background: #000;
+      }
+      .navbar-toggle
+      {
+      	background: rgba(255,255,255,0.5);
+      	border: 2px transparent solid;
+      }
+      .navbar-toggle:hover
+      {
+      	background: rgba(255,255,255,0.9);
+      	border: 2px #fff solid;
+      }
+      .navbar-brand
+      {
+       font-family: 'Bree Serif', serif;
+       font-size: 30px;
+      }
+      
+
